@@ -50,6 +50,10 @@ return require('packer').startup(function(use)
 
   use 'm4xshen/autoclose.nvim'
 
+  use 'lukas-reineke/indent-blankline.nvim'
+
+  use 'tpope/vim-commentary'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

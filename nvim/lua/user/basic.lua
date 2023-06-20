@@ -6,6 +6,7 @@ vim.cmd([[
 set nu splitbelow splitright
 
 set cursorline
+set clipboard+=unnamedplus
 
 " FoldColumn = fdc
 hi FoldColumn guifg=pink
